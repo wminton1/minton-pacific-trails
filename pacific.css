@@ -1,24 +1,59 @@
 body {
-    background-color: #90c7e3 ; color:#666666; font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
-    background-repeat: no-repeat;
+    background-color: #eaeaea ; color:#666666; font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     background-color: #1976d2; color:#FFFFFF; font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("sunset.jpg");
     background-position: right;
     background-repeat: no-repeat;
-    height: 72px
+    height: 120px
+}
+header a{
+    text-decoration: none;
+}
+header a:link{
+    color: #FFFFFF;
+}
+header a:visited{
+    color: #FFFFFF;
+}
+header a:hover{
+    color: #90c7e3;
+}
+section{
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 h1 {
     text-align: center;
     padding-top: .5em;
+    font-size: 3em;
+    letter-spacing: .25em;
 }
 nav {
+    position: fixed;
     padding-top: .5em;
     padding-bottom: .5em;
     padding-right: .5em;
-    text-align: center;
+    float: left;
+    width: 160px;
+    padding: 0;
+    font-size: 1.2em;
+    
+}
+nav a:link{
+    color: #5C7FA3;
+}
+nav a:visited{
+    color: #344783;
+}
+nav a:hover {
+    color: #A52A2A;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 1em;
 }
 
 h2 {
@@ -36,6 +71,8 @@ dt {
 footer {
     font-size: small; font-size: .70em;
     padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
 }
 
 #wrapper {
@@ -46,6 +83,8 @@ footer {
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 4px;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
+
 }
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,19 +92,25 @@ h3 {
 main {
     padding-left: 2em;
     padding-right: 2em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
 }
 #homehero {
     background-image: url("coast.jpg"); height: 300px;
     background-size: 100% 100%;
+    margin-left: 170px;
 }
 #yurthero {
     background-image: url("yurt.jpg"); height: 300px;
     background-size: 100% 100%;
+    margin-left: 170px;
 }
 #trailhero {
     background-image: url("trail.jpg"); height: 300px;
     background-size: 100% 100%;
+    margin-left: 170px;
 }
 nav a {
     text-decoration: none;
 }
+* { box-sizing: border-box;}
