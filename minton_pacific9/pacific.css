@@ -1,0 +1,169 @@
+body {
+    background-color: #90c7e3 ; color:#666666; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #FFFFFF 20%, #90c7e3 60%, #FFFFFF 100%);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+input {
+    margin-bottom: .5em;
+}
+textarea {
+    margin-bottom: .5em;
+}
+#reshero {
+    height: 300px;
+    background-image: url("ocean.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+form {
+    width: 60%;
+    grid-column: 9em;
+}
+header {
+    background-color: #1976d2; color:#FFFFFF; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+header a{
+    text-decoration: none;
+}
+#flow {
+    flex-direction: row;
+}
+
+header a:link{
+    color: #FFFFFF;
+}
+header a:visited{
+    color: #FFFFFF;
+}
+header a:hover{
+    color: #90c7e3;
+}
+section{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .25em;
+}
+nav {
+    background-color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 12em;
+    border-bottom: none;
+}
+nav a:link{
+    color: #5C7FA3;
+}
+nav a:visited{
+    color: #344783;
+}
+nav a:hover {
+    color: #A52A2A;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 10%;
+    margin: 0;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10%;
+}
+
+h2 {
+    color: #1976d2; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+dt {
+    color:#002171; font-weight: 300;
+}
+
+.resort {
+    color:#1976d2; font-size: 1.2em;
+}
+
+
+footer {
+    font-size: small; font-size: .70em;
+    padding: 1em;
+    background-color: #FFFFFF;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 80%
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#homehero {
+    background-image: url("coast.jpg"); height: 300px;
+    background-size: 200% 100%;
+}
+#yurthero {
+    background-image: url("yurt.jpg"); height: 300px;
+    background-size: 200% 100%;
+}
+#trailhero {
+    background-image: url("trail.jpg"); height: 300px;
+    background-size: 200% 100%;
+}
+nav a {
+    text-decoration: none;
+}
+* { box-sizing: border-box;}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: #3399cc;
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+    border-width: 1px;
+    border-color: #3399cc;
+}
+td {
+    text-align: center;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #3399cc;
+}
+.text {
+    text-align: left;
+}
+table tr :nth-of-type(even) {
+    background-color: #DFEDF8;
+}
