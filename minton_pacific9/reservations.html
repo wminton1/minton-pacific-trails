@@ -9,7 +9,7 @@
     <body>
       <header>
         <h1>
-          <a href="index.html">Pacific Trails Resort</a> 
+          <a href="index.html">Pacific Trails Resort :: Reservations</a> 
         </h1>
       </header>
 
@@ -29,29 +29,49 @@
         <div id="wrapper">
 
 
-        <div id="homehero"> </div>
-      <main>
-        <h2>Enjoy Nature in Luxury</h2>
+        <div id="reshero"> </div>
+    <main>
+        <h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us</h3>
+        <p>Required fields are marked with an asterisk*</p>
+
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+            <label for="myFName">*First Name:</label>
+            <input type="text" id="myFName" name="myFName" required>
+
+            <label for="myLName">*Last Name:</label>
+            <input type="text" id="myLName" name="myLName" required>
+
+            <label for="myEmail">*E-mail:</label>
+            <input type="text" id="myEmail" name="myEmail" required>
+
+            <label for="myPhone">*Phone:</label>
+            <input type="text" id="myPhone" name="myPhone" required>
+
+            <label for="myDate">Arrival Date:</label>
+            <input type="date" id="myDate" name="myDate" required>
+
+            <label for="myNights">Nights:</label>
+            <input type="number" id="myNights" name="myNights" min="1" max="14">
+
+            <label for="myComments">Comments:</label>
+            <textarea type="textarea" id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+
+            <input type="submit" id="mySubmit">
+        </form>
         <p><span class="resort"></span> Pacific Trail Resort</span> on the California North 
-          Coast offers panoramic views of the ocean. Our guest
-          experience is an opulent camping adventure in sumptuously
-          appointed private yurts featuring a gas 
-          fireplace, king size bed and private deck.</p>
-          <ul>
-              <li>Unwind in the heated outdoor pool</li>
-              <li>Explore the coast on your own or join our guided tours</li>
-              <li>Start the day with a complientary cooked-to-order breakfast</li>
-              <li>Relax in our lodge while enjoying complimentary beverages and appetizers</li>
-              <li>Savor nightly fine dining with an ocean view</li>
-              <li>Or just lay around and waste the money you spent on this vaction</li>
-          </ul>
-          <div>
-              <br><b><span class="resort">Joliet Junior College</span></b></br>
-              1215 Houbolt Rd.<br>
-              Joliet, IL 60431<br>
-              (815) 729-9020
-          </div>
-      </main>
+        Coast offers panoramic views of the ocean. Our guest
+        experience is an opulent camping adventure in sumptuously
+        appointed private yurts featuring a gas 
+        fireplace, king size bed and private deck.</p>
+        
+        <div>
+            <br><b><span class="resort">Joliet Junior College</span></b></br>
+            1215 Houbolt Rd.<br>
+            Joliet, IL 60431<br>
+            (815) 729-9020
+        </div>
+    </main>
       <footer>
             Copyright &copy; 2025 Pacific Trails Resort <br> 
             <a href="mailto:wesley.minton@jjc.edu">Wesley.Minton@jjc.edu</a>
